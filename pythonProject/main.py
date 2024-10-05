@@ -13,7 +13,7 @@ black = (0, 0, 0)
 blue = (0, 0, 255)
 white = (255, 255, 255)
 
-dino_image = pygame.image.load("C:\\Users\\Armega\\Desktop\\unnamed.png")
+dino_image = pygame.image.load("immage.png")
 dino_image = pygame.transform.scale(dino_image, (100, 100))
 dino_rect = dino_image.get_rect()
 dino_rect.topleft = (screen_width // 8, screen_height - dino_rect.height - 50)
